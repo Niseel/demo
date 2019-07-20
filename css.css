@@ -1,0 +1,125 @@
+body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	background: url(images/bglogin.jpg) repeat-x;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+}
+a {
+	color: #9c9696;
+	text-decoration: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;	
+}
+
+ul li {
+	list-style: none;
+}
+
+#clear-fix {
+	clear: both;
+}
+body section{
+	margin: 0 auto;
+	height: auto;
+	width: 450px;
+	background: rgba(79, 67, 109, 0.46);
+	border-radius: 8px;
+}
+.form-content {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.form-content #logo {
+	text-align: center;
+}
+.form-content #tool-tab{
+	color: #9c9696;
+	font-weight: bold;
+	font-size: 26px;
+}
+.form-content #tool-tab .login {
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+.form-content #tool-tab .register {
+	width: 50%;
+	text-align: right;
+	float: left;
+}
+
+.active a{	
+	color: #fff;
+	border-bottom: 2px solid #ffff00;
+}
+
+.form-content .tag {
+	margin: 10px 0;
+}
+.form-content .tag img {
+	float: left;
+}
+.form-content .tag span{
+	vertical-align: sub;
+	padding-left: 3px;
+}
+
+.form-content .text-box input {
+	text-indent: 5px;
+	border-radius: 3px;
+	border: 2px solid #fff;
+    height: 35px;
+    width: 405px;
+	background: rgba(79, 67, 109, 0.46);
+}
+
+#option {
+	margin: 30px;
+}
+.form-content #option .remember{
+	width: 50%;
+	text-align: left;
+	float: left;
+}
+.form-content #option .button {
+	width: 40%;
+	text-align: center;
+	float: right;
+}
+.form-content #option .button .btn{
+	height: 36px;
+    width: 168px;
+    background-color: #ffff00;
+    padding: 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    /* width: 50%; */
+}
+.form-content #option .button .btn span {
+	color: #000;
+}
+
+#op {
+	margin-top: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+#link {
+	margin: 5px;
+	text-align: center;
+}
+
+#link a {
+	padding-right: 10px;
+}
+
+
